@@ -1,6 +1,9 @@
 package com.abstractfactory.pattern;
 
 public class Client {
+	/*
+	 * 测试
+	 */
    public void eat(KitchenFactory k)
    {
 	   System.out.println("A person eat "+k.getFood().getEatable()  
